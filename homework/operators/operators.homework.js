@@ -18,3 +18,21 @@
 */
 
 // Begin writing your code below
+let granerylevel = 50;
+
+console.log('Current granery level is at',granerylevel);
+
+let famine = 20;
+
+ granerylevel = granerylevel - famine;
+
+ console.log('A famine has entered the land! Your granery levels have lowered to',granerylevel)
+let endoffamine = 60;
+
+granerylevel = granerylevel + endoffamine;
+
+console.log('the famine has ended and we have produced more food for our granary! Graner levels are now at',granerylevel)
+ 
+let population = 90;
+
+console.log('The population has increased! Is there enough food for them in the granery?',granerylevel>population)

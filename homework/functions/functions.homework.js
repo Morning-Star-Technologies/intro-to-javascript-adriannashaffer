@@ -8,3 +8,12 @@
 */
 
 // Begin writing your code below
+function pets(pet1,pet2) {
+    console.log(pet1, pet2)
+}
+pets('Dogs','Cats')
+function doublepets(petcount) {
+    return petcount * 2 
+}
+console.log(doublepets(2))
+console.log(doublepets(3))
